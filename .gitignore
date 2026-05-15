@@ -1,0 +1,11 @@
+public_html*.zip
+vendor/
+
+uploads/*
+!uploads/.gitkeep
+!uploads/payment_proofs/
+uploads/payment_proofs/*
+!uploads/payment_proofs/.gitkeep
+
+.DS_Store
+Thumbs.db

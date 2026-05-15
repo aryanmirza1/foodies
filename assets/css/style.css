@@ -1,0 +1,5122 @@
+/*===============================================
+Template Name: Constre - Construction and Handyman HTML5 Template
+Author:  https://themeforest.net/user/dreamit-solution
+Description: Description
+Version: 1.0.0
+Text Domain: Constre
+Tags:   architecture, building, business, construction, engineer, exterior design, industry, roofing, air conditioning, cleaning services,, flooring, gadget repair,handyman services, plumber, plumbing services, repair services,
+================================================*/
+
+/*TABLE OF CONTENTS*/
+/*=====================
+01. Constre Nav Menu Area Css 
+02. Constre Slider Area Css
+03. Constre Section Title Css
+04. Constre Service Area css
+05. Constre About Area Css
+06. Constre Counter Area Css
+07. Constre Case Study Area Css
+08. Constre Testimonial Area Css
+09. Constre Team Area Css
+10. Constre Faq Area Css
+12. Constre Brand Section Css
+13. Constre Call Do Section Css
+14. Constre Form Box Css
+15. Constre Blog Area Css
+16. Constre footer Area Css
+17. Constre Subscribe Area Css
+18. Constre Lines CSS
+19. Constre Prossess Ber Css
+20. Constre Scrollup Section
+21. Constre Bounce Animation Css 
+22. Constre Animation Dance
+23. Constre Breadcumb Area Css
+24. Constre abouts_areas Css
+25. Constre Feture-Area Css
+26. Constre Pricing Section Css
+27. Constre Web Development Section CSS
+28. Constre Contact  US Css
+29. Constre Blog Sidber Widget CSS
+30. Constre Case Study Details Css
+31. Constre Search Box Css
+32. Constre Loader Css
+=======================*/
+
+
+.header-top-section {
+    background: #171717;
+    padding: 10px 0 10px;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid rgba(255,255,255,0.10196078431372549);
+}
+
+.header-top-section.home2 {
+    padding: 15px 0 60px;
+}
+
+.header-address-info p {
+    margin-bottom: 3px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yantramanav";
+}
+
+.header-address-info p i {
+    display: inline-block;
+    padding-right: 5px;
+    color: #FF5D13;
+    font-size: 12px;
+}
+
+.header-address-info p span {
+    padding-left: 8px;
+    position: relative;
+}
+
+.header-address-info p span:before {
+    position: absolute;
+    content: "";
+    left: -20px;
+    top: -13px;
+    background: rgba(255,255,255,0.10196078431372549);
+    height: 50px;
+    width: 1px;
+}
+
+span.header-top-upper {
+    margin-left: 48px;
+}
+
+.header-top-right-social {
+    text-align: right;
+}
+.header-top-right-social ul>li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header-top-right-social ul>li>a {
+    display: inline-block;
+    border: 1px dashed transparent;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.header-top-right-social ul>li>a:before {
+    position: absolute;
+    content: "";
+    left: -20px;
+    top: -11px;
+    height: 50px;
+    width: 1px;
+    background: rgba(255,255,255,0.10196078431372549);
+}
+
+.header-top-right-social ul>li>a:hover {
+    color: #ff5e14;
+}
+
+a.top-social-icon-left:after {
+    position: absolute;
+    content: "";
+    right: -15px;
+    top: -11px;
+    height: 50px;
+    width: 1px;
+    background: rgba(255,255,255,0.10196078431372549);
+}
+
+/*================================
+<--  Constre Nav Menu Area Css -->
+==================================*/
+.Constre_nav_manu {
+    background: #171717;
+    position: relative;
+    z-index: 2;
+}
+
+.sticky {
+    left: 0;
+    margin: auto;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    background: #212121  !important;
+    transition: .5s;
+    z-index: 9;
+}
+/* Constre Menu Css*/
+
+nav.Constre_menu {
+    text-align: right;
+}
+
+.Constre_menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.Constre_menu>ul>li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.Constre_menu>ul>li>a {
+    display: block;
+    margin: 36px 23px;
+    transition: .5s;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    text-transform: uppercase;
+}
+
+.Constre_menu>ul>li>a:hover {
+    color: #FF5E15;
+}
+
+.Constre_menu>ul>li>a:hover i {
+    color: #FF5E15;
+}
+
+nav.Constre_menu span {
+    font-size: 13px;
+    padding-left: 6px;
+    color: #ffffff61;
+}
+
+.sidebar-btn {
+    display: inline-block;
+}
+
+.nav-btn span i {
+    width: 40px;
+    height: 40px;
+    background-color: #ff5e14;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*** Sub Menu Style ***/
+.Constre_menu ul .sub-menu {
+    position: absolute;
+    left: 0;
+    top: 130%;
+    width: 225px;
+    text-align: left;
+    background: #fff;
+    margin: 0;
+    z-index: 1;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+    visibility: hidden;
+    border-top: 2px solid #212121;
+    opacity: 0;
+}
+
+.Constre_menu ul li:hover>.sub-menu {
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+}
+
+.Constre_menu ul .sub-menu li {
+    position: relative;
+}
+
+.Constre_menu ul .sub-menu li a {
+    display: block;
+    padding: 12px 20px;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: normal;
+    transition: .1s;
+    visibility: inherit !important;
+    color: #211e3b !important;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    text-transform: uppercase;
+}
+
+.Constre_menu ul .sub-menu li:hover>a,
+.Constre_menu ul .sub-menu .sub-menu li:hover>a,
+.Constre_menu ul .sub-menu .sub-menu .sub-menu li:hover>a,
+.Constre_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover>a {
+    background: #212121;
+    color: #fff !important;
+}
+
+/* sub menu 2 */
+.Constre_menu ul .sub-menu .sub-menu {
+    left: 100%;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Constre_menu ul .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+/* sub menu 3 */
+.Constre_menu ul .sub-menu .sub-menu li {
+    position: relative;
+}
+
+.Constre_menu ul .sub-menu .sub-menu .sub-menu {
+    right: 100%;
+    left: auto;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Constre_menu ul .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+ul.sub-menu li a span {
+    background: #ff5e14;
+    padding: 4px 9px;
+    color: #fff;
+    opacity: 1;
+    /* font-family: 'Fira Sans'; */
+    border-radius: 2px;
+    margin-left: 4px;
+    transition: .5s;
+}
+
+ul.sub-menu li:hover a span{
+    background: rgba(255,255,255, 0.20);
+}
+
+/* sub menu 4 */
+.Constre_menu ul .sub-menu .sub-menu .sub-menu li {
+    position: relative;
+}
+
+
+.Constre_menu ul .sub-menu .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+.Constre_menu li a:hover:before {
+    width: 101%;
+}
+
+.Constre_nav_manu.sticky .logo_img {
+    display: none;
+}
+
+.main_sticky {
+    display: none;
+}
+
+.Constre_nav_manu.sticky .main_sticky {
+    display: inherit;
+}
+
+.sticky .Constre_menu li a {
+    color: #fff;
+}
+
+.Constre_nav_manu.sticky a.dtbtn {
+    color: #fff;
+    background: #F16722;
+    border: 2px solid #F16722;
+}
+
+.Constre_nav_manu.sticky a.dtbtn:hover {
+    color: #43baff;
+}
+
+.mobile-menu.mean-container {
+    overflow: hidden;
+}
+
+
+/*
+<!-- ============================================================== -->
+<!-- Start Constre Slider Area Css -->
+<!-- ============================================================== -->*/
+.slider-area {
+    background: url(../images/slider/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+}
+
+/*slider content*/
+
+.slider-content h3 {
+    -webkit-animation: 1s 1.5s fadeInUp both;
+    animation: 1s 1.5s fadeInUp both;
+    position: relative;
+    z-index: 1;
+    padding-left: 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    margin-bottom: 25px;
+}
+
+.slider-content h3:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #ff5e14;
+}
+
+.slider-content h1 {
+    -webkit-animation: 1s 1.7s fadeInUp both;
+    animation: 1s 1.7s fadeInUp both;
+    font-size: 65px;
+    line-height: 68px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    position: relative;
+    z-index: 1;
+}
+
+.slider-content h1:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    z-index: -1;
+    bottom: -19px;
+    width: 68px;
+    height: 5px;
+    background-color: #ff5e14;
+}
+
+
+/*slider button*/
+
+.slider-button {
+    margin-top: 60px;
+}
+
+.slider-button a {
+    padding: 13px 37px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    color: #fff;
+    background: #FF5E15;
+}
+
+.slider-button a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    background: #171717;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.slider-button a:hover:after {
+    transform: scale(1);
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+
+.slider-button a i {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 12px;
+    display: inline-block;
+    transform: revert;
+    transform: rotate(-45deg);
+}
+
+
+.hero-left {
+    position: relative;
+    top: 49px;
+    left: -60px;
+}
+
+.hero-thumb {
+    -webkit-animation: 1s 1.7s fadeInUp both;
+    animation: 1s 1.7s fadeInUp both;
+}
+
+
+.slider-sid-text {
+    position: absolute;
+    top: 17%;
+    left: 0;
+    transform: rotate(-90deg);
+}
+
+.slider-sid-text {
+    position: absolute;
+    top: 40%;
+    left: -6%;
+    transform: rotate(-90deg);
+}
+
+.slider-sid-text h1 {
+    font-size: 140px;
+    font-weight: 900;
+    font-family: "Yantramanav";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255,94,21,1);
+    color: transparent;
+    -webkit-mask-image: linear-gradient(-75deg, rgb(185 28 28 / 15%) 50%, #a31414 50%, rgba(255,255,255,0.15) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 3s infinite;
+    transition: .5s;
+}
+@-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
+
+
+/**
+======================================================
+<--  Constre Section Title Css -->
+======================================================**/
+
+.section-title {
+    margin-bottom: 47px;
+}
+
+.section-title.text-center {
+    margin-bottom: 57px;
+}
+
+.section-title.style-2 {
+    margin-bottom: 42px;
+}
+
+.section-title.style1.pb_20 {
+    margin-bottom: 37px;
+}
+
+.section-title.style1.text-center {
+    margin-bottom: 37px;
+}
+
+.section-title h4 {
+    font-size: 18px;
+    color: #ff5e14;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    margin-bottom: 7px;
+    padding-left: 45px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.section-title h4:before {
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 0;
+    width: 35px;
+    height: 2px;
+    background-color: #ff5e14;
+    z-index: -1;
+}
+
+.section-title h1 {
+    font-size: 48px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin-bottom: 20px;
+}
+
+.section-title.style1 h1 {
+    color: #ffffff;
+    font-family: "Yantramanav";
+}
+
+p.section-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+    width: 88%;
+}
+
+p.section-description.style-left {
+    width: 50%;
+}
+
+.section-title.pb-20 {
+    margin-bottom: 16px;
+}
+
+.section-title.style-2.pb-10 {
+    margin-bottom: 1px;
+}
+
+.section-title.text-center.style2 h1 {
+    margin-bottom: 12px;
+}
+
+.section-title.text-center.style2 p.section-description {
+    width: 45%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section-title.text-center.style2 {
+    margin-bottom: 52px;
+}
+
+.section-title.style1.pb-10 {
+    margin-bottom: 23px;
+}
+
+.section-title.style-2.style-pb-10 {
+    margin-bottom: 25px;
+}
+
+/* Constre btn */
+.constre-btn {
+    text-align: right;
+}
+
+.constre-btn a {
+    display: inline-block;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    background: #FF5E15;
+    padding: 15px 38px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+.constre-btn a:hover {
+    color: #FF5E15;
+}
+
+.constre-btn a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    background: #ffffff;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.constre-btn a:hover:after {
+    transform: scale(1);
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.constre-btn a i {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 12px;
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+
+/***
+======================================================
+<-- Constre Feature Area Css -->
+======================================================***/
+.feature-area {
+    padding: 105px 0 90px;
+    background: #171717;
+}
+
+.feature-single-inner {
+    padding: 26px 40px 30px;
+    border-bottom: 4px solid #ff5e14;
+    transition: .5s;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.feature-single-inner:hover {
+    background: #171717;
+    border-bottom: 4px solid transparent;
+}
+
+.feature-single-inner:before {
+    position: absolute;
+    content: "";
+    left: -3px;
+    top: -3px;
+    border-top: 3px solid #ff5e14;
+    border-bottom: 10px solid #ff5e14;
+    border-left: 3px solid #ff5e14;
+    border-right: 10px solid #ff5e14;
+    height: 106%;
+    width: 103%;
+    z-index: -1;
+    opacity: 0;
+    transition: .5s;
+}
+
+.feature-single-inner:after {
+    position: absolute;
+    content: "'";
+    width: 34px;
+    height: 34px;
+    background: url(../images/resource/feature_shape.png);
+    right: 1px;
+    bottom: -3px;
+    opacity: 0;
+    transition: .5s;
+    z-index: -1;
+}
+
+.feature-single-inner:hover:after {
+    opacity: 1;
+}
+
+.feature-single-inner:hover:before {
+    opacity: 1;
+}
+
+
+.feature-text {
+    display: flex;
+    align-items: center;
+}
+
+h3.feature-number {
+    width: 50px;
+    height: 50px;
+    background-color: #ff5e14;
+    line-height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    text-align: center;
+    margin-right: 19px;
+}
+
+.feature-title {
+    position: relative;
+    top: 3px;
+}
+
+.feature-title span {
+    font-size: 15px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+    margin-bottom: 5px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.feature-title h3 {
+    font-size: 22px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin: 0;
+    transition: .5s;
+}
+
+.feature-desc p {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    transition: .5s;
+}
+
+.feature-btn a {
+    display: inline-block;
+    font-size: 16px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    border-bottom: 1px solid rgba(23,23,23,0.14901960784313725);
+}
+
+.feature-btn a i {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 12px;
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+/* all hover */
+
+.feature-single-inner:hover .feature-desc p{
+    color:  #8e939f;
+}
+
+.feature-single-inner:hover .feature-title h3 {
+    color:  #fff;
+}
+
+.feature-single-inner:hover .feature-title span  {
+    color:  #8e939f;
+}
+
+.feature-single-inner:hover .feature-btn a  {
+    color:  #FF5F15;
+    border-bottom: 1px solid #FF5F15;
+}
+
+
+
+/***
+======================================================
+<-- Constre About Area Css -->
+======================================================***/
+
+.about_area {
+    background: url(../images/about/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px;
+    position: relative;
+}
+
+.about_left {
+    position: relative;
+    margin-left: -20px;
+}
+
+.about-btn a {
+    display: inline-block;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    background: #FF5E15;
+    padding: 15px 33px;
+    position: relative;
+    z-index: 1;
+}
+
+.about-btn a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    background: #171717;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.about-btn a:hover:after {
+    transform: scale(1);
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.about-btn a i {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 12px;
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+.about-shape {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+
+/***
+======================================================
+<-- Constre Service Area Css -->
+======================================================***/
+
+.service-area {
+    background: #F5F6F8;
+    padding: 107px 0 120px;
+}
+
+.constre-service-single-item {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 30px 30px 30px;
+    border-bottom: 3px solid #FF5E15;
+    transition: .5s;
+    text-align: left;
+}
+
+.constre-service-single-item:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: #171717;
+    transition: .5s;
+    opacity: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.constre-service-single-item:hover:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.constre-service-single-item:hover {
+    background: #171717;
+    border-bottom: 3px solid transparent;
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #f5f6f7;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 25px;
+    transition: .5s;
+}
+
+.service-icon img {
+    filter: brightness(1)invert(0);
+    transition: .5s;
+    display: inline-block !important;
+}
+
+h3.service-title {
+    font-size: 22px;
+    line-height: 28px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    transition: .5s;
+}
+
+.service-text {
+    padding: 10px 0 24px;
+    position: relative;
+}
+
+p.service-desc {
+    font-size: 16px;
+    margin: 0;
+    line-height: 26px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+    transition: .5s;
+}
+
+.service-btn {
+    position: absolute;
+    top: 22%;
+    transition: .5s;
+    opacity: 0;
+}
+
+.service-btn a {
+    display: inline-block;
+    font-size: 16px;
+    color: #ff5e14;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    border-bottom: 1px solid #FF5D13;
+    margin: 0;
+}
+
+.service-btn a i {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 12px;
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+.service-thumb img {
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+/* all hover */
+
+.constre-service-single-item:hover .service-icon {
+    background: #FF5E15;
+}
+
+.constre-service-single-item:hover .service-icon img {
+    filter: brightness(0)invert(1);
+}
+.constre-service-single-item:hover h3.service-title {
+    color: #ffff;
+}
+
+.constre-service-single-item:hover p.service-desc {
+    opacity: 0;
+}
+
+.constre-service-single-item:hover .service-btn {
+    opacity: 1;
+}
+
+.constre-service-single-item:hover:hover .service-thumb img {
+    border: 3px solid #fff;
+}
+
+/*  */
+
+.service-list .owl-nav {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: 50px;
+    z-index: 1;
+}
+
+.service-list .owl-nav:before {
+    position: absolute;
+    content: "";
+    left: 40%;
+    top: 26px;
+    width: 50px;
+    height: 2px;
+    background-color: rgba(23,23,23,0.10196078431372549);
+    z-index: -1;
+    margin: auto;
+}
+
+.service-list .owl-nav:after {
+    position: absolute;
+    content: "";
+    right: 40%;
+    top: 26px;
+    width: 50px;
+    height: 2px;
+    background-color: rgba(23,23,23,0.10196078431372549);
+    z-index: -1;
+    margin: auto;
+}
+
+.service-list .owl-prev {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 15px;
+    transition: .5s;
+}
+
+.service-list .owl-next {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.service-list .owl-prev:hover {
+    background: #FF5E15;
+    color: #fff;
+}
+
+.service-list .owl-next:hover {
+    background: #FF5E15;
+    color: #fff;
+}
+
+
+
+/***======================================================
+<-- Constre Why Choose Area Css -->
+======================================================***/
+
+.why-choose-us-area {
+    background: #F5F6F8;
+    position: relative;
+    padding: 50px 0 70px;
+}
+
+.why-choose-us-area.style-two {
+    padding: 50px 0 0px;
+}
+
+.row.choose-us_bg {
+    position: relative;
+    z-index: 1;
+    padding: 84px 0 97px;
+}
+
+.row.choose-us_bg:before {
+    position: absolute;
+    content: "";
+    left: -292px;
+    top: 0;
+    height: 100%;
+    width: 121%;
+    background: url(../images/resource/choose_bg.png);
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.choose-video-icon {
+    position: absolute;
+    bottom: -41rem;
+    right: 108px;
+}
+
+.choose-video-icon a {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: #ff5e14;
+    line-height: 120px;
+    text-align: center;
+    font-size: 16px;
+    color: #FF5E14;
+}
+
+.choose-video-icon a i {
+    width: 63px;
+    height: 63px;
+    border-radius: 31px;
+    background-color: #ffffff;
+    line-height: 63px;
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-blue 1s linear infinite;
+} 
+@-webkit-keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0)
+    }
+}
+
+@keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0);
+        box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0)
+    }
+}
+
+.choose-list ul li img {
+    position: relative;
+    margin-right: 12px;
+    margin-top: -2px;
+}
+
+.choose-list ul li {
+    font-size: 18px;
+    color: #171717;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    margin-bottom: 10px;
+}
+
+/* prossess ber plugin */
+
+.prossess-ber-plugin {
+    margin-top: 27px;
+}
+
+.prossess-ber-plugin span {
+    margin-top: 6px;
+    font-size: 18px;
+    color: #171717;
+    font-weight: 400;
+    font-family: "Yantramanav";
+}
+
+.barfiller {
+    width: 95%;
+    background: #eaeaea;
+    position: relative;
+    margin-bottom: 24px;
+    margin-top: 4px;
+    height: 6px;
+    background-color: #171717;
+}
+
+span.fill {
+    background: #FF5E15!important;
+}
+
+.barfiller .fill {
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 100%;
+  background: #333;
+  z-index: 1;
+}
+
+.barfiller .tip {
+    margin-top: -35px;
+    position: absolute;
+    font-size: 18px;
+    color: #1b1b1b;
+    font-family: "Yantramanav";
+    font-weight: 400;
+    left: 0;
+}
+
+
+/* choose btn */
+.choose-btn {
+    margin-top: 40px;
+}
+
+.choose-btn a {
+    display: inline-block;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    background: #171717;
+    padding: 15px 33px;
+    position: relative;
+    z-index: 1;
+}
+
+.choose-btn a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    background: #FF5E15;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.choose-btn a:hover:after {
+    transform: scale(1);
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.choose-btn a i {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 12px;
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+/* counter upper */
+
+.row.counter_upper {
+    margin-top: 100px;
+}
+
+.counter-single-item {
+	background: url(../images/resource/counter_shape.png);
+	padding: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.counter-single-item:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    border-bottom: 15px solid #FF5E15;
+    border-left: 15px solid #FF5E15;
+    border-top: 15px solid #FF5E15;
+    border-right: 15px solid #FF5E15;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    opacity: 0;
+}
+
+.counter-single-item:hover:before {
+    opacity: 1;
+}
+
+.counter-single-item:after {
+    position: absolute;
+    content: "";
+    right: -84%;
+    background: url(../images/resource/feature_shape.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    bottom: -75%;
+    opacity: 0;
+    transition: .5s;
+}
+
+.counter-single-item:hover:after {
+   opacity: 1;
+}
+
+.counter-content {
+    text-align: center;
+    background: #fff;
+    padding: 19px 0 36px;
+}
+
+.counter-title h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    text-align: center;
+}
+
+.counter-title span {
+    font-size: 48px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+}
+
+.counter-title h5 {
+    font-size: 16px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+.chosse-shpe {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: dance3 4s alternate infinite;
+}
+
+
+/***
+======================================================
+<-- Constre Portfolio Area Css -->
+======================================================***/
+
+.case-study-area {
+    background: #171717;
+    padding: 108px 0 200px;
+}
+
+/*case thumb*/
+.case-study-thumb {
+    position: relative;
+    z-index: 1;
+}
+
+
+.case-study-thumb img {
+    width: 100%;
+}
+
+/*case content*/
+
+.case-study-content {
+    position: absolute;
+    bottom: -50px;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0.9999999999999999) 0%, rgba(255,255,255,0.9999999999999999) 9%, rgba(255,255,255,0) 100%);
+    border: 2px solid rgba(255,255,255,0.7);
+    width: 82%;
+    padding: 25px 0 29px;
+    text-align: left;
+    border-left: 3px solid #FF5E15;
+    padding-left: 35px;
+    opacity: 0;
+    left: 26px;
+    transition: .5s;
+}
+
+.case-study-title h3 {
+    margin-top: 5px;
+}
+
+.case-study-title h3 a {
+    font-size: 28px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    display: inline-block;
+}
+
+.case-title span a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ff5e14;
+    font-weight: 500;
+    font-family: "Yantramanav";
+}
+
+
+.case-text {
+    float: left;
+}
+
+
+.case-right-btn {
+    text-align: right;
+    padding-right: 30px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.case-right-btn a {
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #ff5e14;
+    line-height: 50px;
+}
+
+.case-right-btn a i {
+    color: #fff;
+    font-size: 16px;
+    transform: rotate(-45deg);
+    display: inline-block;
+}
+
+.case-study-area .owl-item.active.center .case-study-thumb img {
+    transform: scale(1.1);
+}
+
+.case-study-area .owl-carousel .owl-item img {
+    display: inline-block;
+    padding: 20px 30px 20px;
+}
+
+.case-study-area .owl-item.active.center .case-study-content {
+    opacity: 1;
+    bottom: 42px;
+}
+
+/* owl carousel */
+.case-study .owl-nav {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: 80px;
+    z-index: 1;
+}
+
+.case-study .owl-nav:before {
+    position: absolute;
+    content: "";
+    left: 43%;
+    top: 26px;
+    width: 50px;
+    height: 2px;
+    background-color: rgba(255,255,255,0.10196078431372549);
+    z-index: -1;
+    margin: auto;
+}
+
+.case-study .owl-nav:after {
+    position: absolute;
+    content: "";
+    right: 43%;
+    top: 26px;
+    width: 50px;
+    height: 2px;
+    background-color: rgba(255,255,255,0.10196078431372549);
+    z-index: -1;
+    margin: auto;
+}
+
+.case-study .owl-prev {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #2F2F2F;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 15px;
+    transition: .5s;
+    color: #fff;
+}
+
+.case-study .owl-next {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #2F2F2F;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    transition: .5s;
+    color: #fff;
+}
+
+.case-study .owl-prev:hover {
+    background: #FF5E15;
+    color: #fff;
+}
+
+.case-study .owl-next:hover {
+    background: #FF5E15;
+    color: #fff;
+}
+
+
+
+/***
+======================================================
+<-- Constre Team Area Css -->
+======================================================***/
+
+.team-area {
+    background: #F5F6F8;
+    padding: 107px 0 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sengle-team-box {
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 30px 30px 30px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.sengle-team-box:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/team/team-shape.jpg);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.2;
+}
+
+.team-thumb img {
+    width: 100%;
+}
+
+.team-content {
+    background: #fff;
+    padding: 17px 0 30px;
+    position: relative;
+    margin-top: 0px;
+    transition: .5s;
+    overflow: hidden;
+    border-bottom: 3px solid transparent;
+    filter: drop-shadow(0px 5px 15px rgba(136,136,136,0.05));
+}
+
+.team-title h3 a {
+    display: inline-block;
+    font-size: 26px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    text-align: center;
+    transition: .5s;
+}
+
+.team-title span {
+    font-size: 16px;
+    color: #575f66;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    margin-top: 5px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.team-social-icon {
+    padding: 20px 0 0px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    transition: .5s;
+}
+
+.team-social-icon a {
+    line-height: 30px;
+    display: inline-block;
+    color: #ffff;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(16,18,16,0);
+    border: 1px solid rgba(255,255,255,0.25);
+}
+
+.team-social-icon a:hover {
+    background: #FF5F15;
+    border: 1px solid #FF5F15;
+    color: #fff;
+}
+
+
+.team-shape1 {
+    position: absolute;
+    top: 21%;
+    left: -4%;
+    animation: dance3 4s alternate infinite;
+}
+
+.team-shape2 {
+    position: absolute;
+    right: 0%;
+    bottom: -84%;
+    animation: dance3 3s alternate infinite;
+}
+/* all hover */
+
+.sengle-team-box:hover .team-social-icon {
+    opacity: 1;
+    
+}
+
+.sengle-team-box:hover .team-content {
+    margin-top: -60px;
+    padding: 17px 0 90px;
+    background: #171717;
+    border-bottom: 3px solid #FF5E15;
+}
+
+.sengle-team-box:hover .team-title h3 a {
+    color: #fff;
+}
+
+.sengle-team-box:hover .team-title span {
+    color: #FF5E15;
+}
+
+
+/***
+======================================================
+<--  Constre Testimonial Area Css -->
+======================================================***/
+.testimonial-area {
+    padding: 80px 0 80px;
+    position: relative;
+    overflow: hidden;
+    background: #171717;
+    z-index: 1;
+}
+
+/* .testimonial-area:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 48%;
+    background: #FF5E15;
+    z-index: -1;
+} */
+
+.testimonial-content {
+    background: #fff;
+    padding: 32px 62px 33px 40px;
+    position: relative;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.testimonial-content:before {
+    content: "";
+    position: absolute;
+    left: 9%;
+    top: 100%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-top: 15px solid #fafbfc;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    transition: .5s;
+    background: radial-gradient(black, transparent);
+    transition: .5s;
+}
+
+.testimonial-content p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #575f66;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Archivo";
+}
+
+.testi-star i {
+    font-size: 16px;
+    color: #ff5e14;
+    margin-right: 6px;
+}
+
+.tesit-auothor {
+    margin-left: 25px;
+}
+
+.testi-author-thumb {
+    float: left;
+    margin-right: 20px;
+}
+
+.bio {
+    position: relative;
+    top: 13px;
+    text-align: left;
+}
+
+h4.name {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+}
+
+h5.designation {
+    font-size: 16px;
+    color: #a5acb2;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    margin-top: 8px;
+}
+
+.testi-shape {
+    position: absolute;
+    top: 0%;
+    left: 6%;
+}
+
+/* testi right */
+.testi-right {
+    position: relative;
+    margin-left: 100px;
+}
+
+.testi-content {
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    background-color: rgba(255,255,255,0.5019607843137255);
+    text-align: center;
+    padding: 40px 60px 55px;
+    z-index: 1;
+}
+
+.testi-rating-text {
+    position: relative;
+    z-index: 1;
+}
+
+.testi-rating-text:before {
+    position: absolute;
+    top: -29px;
+    left: -35px;
+    height: 150px;
+    width: 150px;
+    background-color: #171717;
+    z-index: -1;
+    content: "";
+}
+
+h2.tesit-rang {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin-bottom: 2px;
+}
+
+span.testi-title {
+    font-size: 16px;
+    color: #8e939f;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    text-align: center;
+}
+
+.testi_list .owl-dots {
+    position: absolute;
+    bottom: 22px;
+    right: 56px;
+}
+
+.testi_list .owl-dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background: #5D5D5D;
+    margin-left: 10px;
+}
+
+.testi_list .owl-dot.active {
+    background: #FF5E15;
+}
+
+
+
+/***
+======================================================
+<-- Constre Brand Area Css -->
+======================================================***/
+
+.brand-area {
+    padding: 100px 0 70px;
+    background: #F5F6F8;
+}
+
+.single-brand-item {
+    background: #fff;
+    padding: 65px 0 65px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.single-brand-item:before {
+    position: absolute;
+    content: "";
+    left: 25px;
+    top: 20px;
+    height: 77%;
+    width: 84%;
+    background: linear-gradient(90deg, #D1D1D1 50%, transparent 0) repeat-x, linear-gradient(90deg, #D1D1D1 50%, transparent 0) repeat-x, linear-gradient(0deg, #D1D1D1 50%, transparent 0) repeat-y, linear-gradient(0deg, #D1D1D1 50%, transparent 0) repeat-y;
+    background-size: 9px 1px, 9px 1px, 1px 9px, 1px 9px;
+    background-position: 0 0, 0 100%, 0 0, 100% 0;
+    -webkit-animation: linearGradientMove 0.3s infinite linear;
+    animation: linearGradientMove 0.3s infinite linear;
+}
+
+.brand-area .owl-carousel .owl-item img {
+    display: inline-block;
+}
+
+/***
+======================================================
+<--  Constre Blog Area Css -->
+======================================================***/
+
+.blog-area {
+    padding: 105px 0 90px;
+}
+
+.single-blog-box {
+    margin-bottom: 30px;
+}
+
+.single-blog-thumb {
+    overflow: hidden;
+    position: relative;
+}
+
+.single-blog-thumb img {
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: .5s;
+}
+
+.blog-contents {
+    background: #F5F6F8;
+    padding: 30px 33px 35px 30px;
+    border-bottom: 4px solid transparent;
+    transition: .5s;
+}
+
+.meta-blog p {
+    font-size: 15px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+.meta-blog p span {
+    position: relative;
+    padding-left: 40px;
+    z-index: 1;
+}
+
+.meta-blog p span:before {
+    position: absolute;
+    content: "";
+    left: 16px;
+    top: 3px;
+    height: 10px;
+    width: 10px;
+    background: #D3D4D6;
+    border-radius: 50%;
+}
+
+.blog-title h3 {
+    margin-top: -4px;
+}
+
+.blog-title h3 a {
+    font-size: 24px;
+    line-height: 30px;
+    color: #101210;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    display: inline-block;
+    transition: .5s;
+}
+
+.blog-title h3 a:hover {
+    color: #FF5D13;
+}
+
+.blog-btn {
+    margin-top: 21px;
+    border-top: 1px solid #d3d3d494;
+    padding-top: 21px;
+}
+
+.blog-btn a {
+    display: inline-block;
+    font-size: 17px;
+    color: #101210;
+    font-weight: 500;
+    font-family: "Yantramanav";
+}
+
+.blog-btn a i {
+    display: inline-block;
+    margin-left: 13px;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    line-height: 37px;
+    text-align: center;
+    color: #101210;
+    position: relative;
+    top: 3px;
+    transition: .5s;
+}
+
+/* all hover */
+.single-blog-box:hover .blog-contents {
+    border-bottom: 4px solid #FF5D13;
+    background-color: #fff;
+    filter: drop-shadow(0px 10px 20px rgba(137,137,137,0.15));
+}
+
+.single-blog-box:hover .blog-btn a {
+    color: #FF5D13;
+}
+
+.single-blog-box:hover .blog-btn a i {
+    color: #fff;
+    background: #FF5D13;
+
+}
+
+.single-blog-box:hover .single-blog-thumb img {
+    transform: scale(1.2);
+}
+/***
+======================================================
+<--  Constre Subscribe Area Css -->
+======================================================***/
+.newsletter-area {
+  /*  background: #FF5E15;*/
+  background: #171717;
+    padding: 24px 0 23px;
+}
+
+.newsletter-title h1 {
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin-bottom: -2px;
+}
+
+.newsletter-title p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Archivo";
+}
+
+.subscribe_form {
+    position: relative;
+    text-align: right;
+}
+
+.subscribe_form input {
+    height: 60px;
+    background-color: #ffffff;
+    outline: 0;
+    border: none;
+    width: 88%;
+    float: right;
+    border-radius: 0;
+}
+
+.subscribe_form button {
+    transition: all 0.4s ease 0s;
+    border: medium none;
+    background: #171717;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    display: inline-block;
+    z-index: 1;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    border-radius: 0;
+    text-transform: uppercase;
+    width: 142px;
+    height: 60px;
+}
+
+.subscribe_form button:hover {
+    color: #fff !important;
+}
+
+.subscribe_form button.btn:after {
+    background: #0163A2;
+}
+
+/**
+======================================================
+<--  Constre Footer Area Css -->
+======================================================**/
+.footer-area {
+    padding: 85px 0 100px;
+    background: url(../images/resource/footer-bg.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-contact-info {
+    background: #212121;
+    padding: 50px 50px 50px;
+    position: relative;
+    margin-top: -186px;
+    z-index: 1;
+}
+
+p.footer-desc {
+    font-size: 16px;
+    line-height: 26px;
+    color: #8e939f;
+    font-weight: 300;
+    font-family: "Archivo";
+    margin-top: 29px;
+}
+
+.footer-title2 h3 {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 34px;
+}
+
+.footer-title2 h3:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 34px;
+    width: 30px;
+    height: 2px;
+    background-color: #ff5e14;
+}
+
+.footer-didget-icon {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-didget-icon span i {
+    color: #FF5E15;
+}
+
+.footer-widget-contact p {
+    font-size: 16px;
+    color: #8e939f;
+    font-weight: 300;
+    font-family: "Archivo";
+    overflow: hidden;
+}
+
+.footer-widget-social-icon ul li {
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 14px;
+}
+
+.footer-widget-social-icon ul li a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255,255,255,0.10196078431372549);
+    line-height: 34px;
+    text-align: center;
+    color: #8F939E;
+    font-size: 15px;
+}
+
+.footer-widget-social-icon ul li a:hover{
+    color:#fff;
+    background: #FF5E15;
+}
+
+.footer-widget-content.style-left {
+    position: relative;
+    margin-left: 50px;
+}
+
+.footer-widget-titel h4 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin-bottom: 35px;
+}
+
+.footer-widget-titel h4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 36px;
+    width: 30px;
+    height: 2px;
+    background-color: #ff5e14;
+}
+
+.footer-widget-menu ul li a {
+    display: inline-block;
+    transition: 0.5s;
+    font-size: 17px;
+    color: #8e939f;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    margin-bottom: 14px;
+}
+
+.footer-widget-menu ul li a:hover{
+    color:#fff;
+}
+
+/*recent post image*/
+
+.recent-post-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.recent-post-item.upper {
+    margin-top: 43px;
+}
+
+.recent-post-image {
+    width: 80px;
+    height: 80px;
+}
+
+.recent-post-text {
+    flex: 1;
+}
+
+.recent-post-text h6 {
+    margin: 0;
+    max-inline-size: 20ch;
+}
+
+.recent-post-text a {
+    transition: .5s;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+}
+
+.recent-post-text span {
+    padding: 2px 0 0;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 26px;
+    color: #8e939f;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+/*footer all hover*/
+ul.footer-menu li a:hover {
+    color: #FF3C00;
+}
+
+.follow-company-icon a:hover:before {
+    transform: scale(1);
+}
+
+.recent-post-text a:hover {
+    color: #FF3C00;
+}
+
+/* footer bootm  area*/
+.footer-bottom-area {
+    background: #212121;
+    padding: 17px 0 15px;
+}
+
+.footer-bottom-content-copy p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+.footer-bottom-content.right {
+    text-align: right;
+}
+
+.footer-bottom-menu ul li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.footer-bottom-menu ul li a {
+    display: inline-block;
+    transition: 0.5s;
+    font-size: 17px;
+    color: #8e939f;
+    font-weight: 400;
+    font-family: "Yantramanav";
+}
+
+.footer-bottom-menu ul li a:hover{
+    color:#fff;
+}
+
+/*--==============================================->
+<!-- Constre Breadcumb Area Css -->
+==================================================-*/
+.breadcumb-area {
+    background: url(../images/resource/breadcrumb.jpg);
+    height: 500px;
+    position: relative;
+}
+
+.breadcumb-content h1 {
+    margin-bottom: 10px;
+    font-size: 56px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Yantramanav";
+}
+
+.breadcumb-content ul li {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    margin-right: 6px;
+}
+
+.breadcumb-content ul li a i {
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+
+
+.breadcumb-content ul li a {
+    text-transform: uppercase;
+    padding-right: 30px;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+}
+
+.breadcumb-content ul li a:hover {
+    color: #FF5E14;
+}
+
+.breadcumb-content ul li a:hover i {
+    color: #FF5E14;
+}
+
+.breadcumb-content ul li a:before {
+    position: absolute;
+    content: "";
+    right: 8px;
+    top: 3px;
+    background: #fff;
+    width: 2px;
+    height: 12px;
+    transition: .5s;
+    transform: rotate(17deg);
+}
+
+/*========================================
+<--Start  Constre Inner page Css -->
+==========================================*/
+/*========================================
+<-- Constre About Area style two  Css -->
+==========================================*/
+
+.about_area.style-two {
+    background: url(../images/about/abou_bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0 112px;
+    position: relative;
+}
+
+.about_left.style-two {
+    position: relative;
+    margin-left: -70px;
+}
+
+.about_thumb{
+    position: relative;
+}
+
+.about-shape2 {
+    position: absolute;
+    top: 50%;
+    left: 31%;
+}
+
+.about-list {
+    margin-bottom: 37px;
+}
+
+.about-list ul li {
+    font-size: 18px;
+    color: #171717;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    margin-bottom: 15px;
+}
+
+.about-list ul li i {
+    font-size: 17px;
+    color: #171717;
+    margin-right: 10px;
+}
+
+.about-btn.style-two {
+    float: left;
+    margin-right: 20px;
+}
+
+.about-btn.style-two a {
+    display: inline-block;
+    padding: 14px 36px;
+}
+
+/* about author */
+
+.about-author {
+    position: relative;
+    top: -11px;
+}
+
+.about-author-thumb {
+    float: left;
+    margin-right: 15px;
+}
+
+.author-title h3 {
+    font-size: 20px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    margin-bottom: 3px;
+}
+
+.author-title p {
+    font-size: 14px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+/*========================================
+<-- Constre Counter Area Css -->
+==========================================*/
+
+.counter-area {
+	background: #F5F6F8;
+	padding: 120px 0 90px;
+}
+
+
+/*========================================
+<-- Constre Pricing Section Css -->
+==========================================*/
+
+.pricing-area {
+    padding: 103px 0 89px;
+    background: #F5F6F8;
+}
+
+
+.pricing-single-items {
+    background: url(../images/resource/pricing_shape.png);
+    margin-bottom: 30px;
+    padding: 20px 20px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-single-items:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(23,23,23,0.8);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: scale(0);
+    transition: .6s;
+}
+
+.pricing-single-items:hover:before {
+    transform: scale(1);
+}
+
+.pricing-single-items:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(23,23,23);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.pricing-single-inner {
+    background: #fff;
+    border: 1px solid rgba(23,23,23,0.07);
+    padding: 35px 40px 49px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .6s;
+}
+
+.pricing-single-inner:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    height: 100%;
+    width: 100%;
+    background: #171717;
+    z-index: -1;
+    transition: .5s;
+}
+
+.pricing-item-text {
+    margin-bottom: 10px;
+}
+
+.pricing-title h3 {
+    font-size: 22px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.currency {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    position: relative;
+    top: -24px;
+    line-height: 68px;
+    color: #ff5e14;
+}
+
+.pricing-item-text span {
+    display: inline-block;
+    font-size: 70px;
+    color: #ff5e14;
+    font-weight: 700;
+    font-family: "Yantramanav";
+}
+
+.month {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #575f66 !important;
+    font-style: italic;
+    font-family: "Archivo" !important;
+    margin-left: -17px;
+}
+
+.pricing-feature {
+    margin-bottom: 27px;
+}
+
+.pricing-feature ul li {
+    display: block;
+    padding: 4px 0;
+    font-size: 16px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+.pricing-feature ul li i {
+    margin-right: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.constre-btn.style1 {
+    text-align: left;
+}
+
+.constre-btn.style1 a {
+    display: inline-block;
+    padding: 12px 37px;
+}
+
+.pricing-rcomnded {
+    position: absolute;
+    top: 18px;
+    right: -73px;
+    transform: rotate(47deg);
+    opacity: 0;
+    transition: .5s;
+}
+
+.pricing-rcomnded span {
+    font-size: 13px;
+    color: #ff5e14;
+    font-weight: 400;
+    font-family: "Archivo";
+    text-align: center;
+    background: #fff;
+    padding: 12px 70px;
+}
+
+/* all hover */
+
+.pricing-single-items:hover .pricing-single-inner:before {
+    transform: scale(1);
+}
+
+.pricing-single-items:hover .pricing-single-inner {
+    border: 1px solid #171717;
+}
+
+.pricing-single-items:hover .pricing-title h3 {
+    color: #fff;
+}
+
+
+.pricing-single-items:hover .pricing-feature ul li {
+    color: #fff;
+}
+
+
+.pricing-single-items:hover .pricing-rcomnded{
+    opacity: 1;
+    top: 28px;
+    right: -66px;
+}
+
+/**
+======================================================
+<--  Constre Service Details Area Css -->
+======================================================**/
+.service-detials-area {
+    padding: 120px 0 100px;
+}
+
+.Constre-service-thumb img {
+    width: 100%;
+}
+
+.service-page-title h1 {
+    font-size: 34px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    padding: 22px 0 12px;
+    display: inline-block;
+}
+
+p.pb_30 {
+    margin-bottom: 31px;
+    margin-top: 24px;
+}
+
+/*detials box*/
+.service-details-box {
+    background: #fff;
+    padding: 33px 30px 15px;
+    margin-bottom: 30px;
+    border-left: 3px solid #FF5D13;
+    filter: drop-shadow(0px 5px 30px rgba(117,117,117,0.1));
+}
+
+.service-details-box:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background: #FF5D13;
+    z-index: -1;
+    transition: .5s;
+}
+
+.service-details-box:hover:before {
+    width: 100%;
+}
+
+.service-details-icon {
+    float: left;
+    margin-right: 25px;
+    margin-top: 10px;
+    background: #F5F6F8;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    transition: .5s;
+}
+.service-details-icon img {
+    transition: .5s;
+}
+
+.service-details-title h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    transition: .5s;
+}
+
+.services-detials-desc p {
+    transition: .5s;
+}
+
+/* all hover */
+
+.service-details-box:hover .service-details-icon {
+    background: #2F2F2F;
+}
+
+.service-details-box:hover  .service-details-icon img {
+    filter: brightness(0)invert(1);
+}
+
+.service-details-box:hover  .service-details-title h4 {
+   color: #fff;
+}
+
+.service-details-box:hover  .services-detials-desc p {
+    color: #fff;
+ }
+
+ /* service tab title */
+
+ .service-details-content {
+    margin-bottom: 30px;
+}
+
+ .service-tab-title h2 {
+    font-size: 34px;
+    color: #171717;
+    font-weight: 700;
+    margin: 69px 0 32px;
+}
+
+.service-page-title2 h1 {
+    font-size: 34px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin: 50px 0 18px;
+}
+
+/* service-details-item */
+
+.service-details-item {
+    position: relative;
+    margin-bottom: 30px;
+    /* padding: 0 0 131px; */
+}
+
+.service-details-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.service-details-thumb img {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.service-details-item:hover .service-details-thumb img {
+    transform: scale(1.2);
+}
+
+.service-details-contents {
+    background: #fff;
+    padding: 21px 30px 25px;
+    width: 85%;
+    position: absolute;
+    left: 1px;
+    right: 0;
+    margin: auto;
+    margin-top: -20px;
+    filter: drop-shadow(0px 5px 30px rgba(117,117,117,0.1));
+}
+
+.service-details-contents h3 a {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    display: inline-block;
+    color: #171717;
+}
+
+ul.service-details-list li {
+    margin-bottom: 3px;
+}
+
+ul.service-details-list li i {
+    font-size: 20px;
+    color: #FF5E14;
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+
+/*widget categories box*/
+.widget-categories-box {
+    background: #F5F6F8;
+    padding: 26px 40px 25px;
+    margin-bottom: 30px;
+}
+
+.categories-title h4 {
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 52px;
+    z-index: 1;
+}
+
+.categories-title h4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -23px;
+    height: 2px;
+    background: #DEDFE0;
+    width: 100%;
+}
+
+.categories-title h4:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -23px;
+    height: 2px;
+    background: #FF5E14;
+    width: 15px;
+}
+
+
+/*categories menu*/
+.widget-categories-menu ul {
+    display: block;
+}
+
+.widget-categories-menu ul li {
+    display: block;
+    list-style: none;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 16px 20px 16px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    color: #171717;
+}
+
+.widget-categories-menu ul li:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    background: #FF5E15;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.widget-categories-menu ul li:hover:after {
+    transform: scale(1);
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.widget-categories-menu ul li a {
+    display: block;
+    transition: .5s;
+    color: inherit;
+}
+
+
+.widget-categories-menu ul li a span {
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    margin-top: 0px;
+    color: #FF5E15;
+    transition: .5s;
+    font-weight: 600;
+}
+
+/*all hover*/
+
+.widget-categories-menu ul li:hover a span {
+    color: #ffff;
+}
+
+.widget-categories-menu ul li:hover a {
+    color: #fff;
+}
+
+.service-details-icon-box {
+    margin-left: 20px;
+}
+
+/* widget box */
+
+.widget-categories-box.style-down {
+    background: #171717;
+}
+
+.widget-categories-box.style-down .categories-title h4 {
+    color: #fff;
+}
+
+.categories-title.style1 h4:before {
+    background: #2F2F2F;
+}
+
+/* widget pdf */
+
+.pdf-button a {
+    display: block;
+    background: #2F2F2F;
+    padding: 15px 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.pdf-button a i {
+    float: right;
+    font-size: 20px;
+    margin-top: 2px;
+    color: #FF5E15;
+}
+
+.pdf-button a img {
+    margin-right: 10px;
+}
+
+/*===================================
+<-- Constre Case Study Style Two Css -->
+=====================================*/
+.case-study-area.style-two {
+    background: #fff;
+    padding: 105px 0 120px;
+}
+
+/* Portfolio Nav */
+.portfolio_nav {
+    margin-top: 98px;
+}
+
+.portfolio_menu ul {
+    text-align: right;
+    list-style: none;
+}
+
+.portfolio_nav ul li {
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    padding: 7px 22px;
+    display: inline-block;
+    border: 1px solid rgba(23,23,23,0.1);
+    margin-left: 10px;
+    font-size: 17px;
+    color: #171717;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio_nav ul li:hover {
+    color: #fff;
+    border: 1px solid #171717;
+}
+
+.portfolio_nav ul li:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    background: #171717;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.portfolio_nav ul li:hover:after {
+    transform: scale(1);
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+
+.portfolio_menu ul li a {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s;
+}
+
+.portfolio_menu ul li a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 24px;
+    height: 2px;
+    width: 0%;
+    background: #fff;
+    transition: .5s;
+}
+
+.portfolio_nav ul li:hover,
+.portfolio_nav ul li.current_menu_item {
+    color: #fff;
+    background: #FF5E14;
+    
+}
+
+.style-two .case-study-single-box {
+    margin-bottom: 30px;
+}
+
+.case-study-thumb2 {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.case-study-thumb2 img {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.case-study-thumb2 img:hover {
+    transform: scale(1.2);
+}
+
+.case-study-contents {
+    position: absolute;
+    bottom: -84px;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0.9999999999999999) 0%, rgba(255,255,255,0.9999999999999999) 9%, rgba(255,255,255,0) 100%);
+    border: 2px solid rgba(255,255,255,0.7);
+    width: 90%;
+    padding: 19px 0 24px;
+    text-align: left;
+    border-left: 3px solid #FF5E15;
+    padding-left: 30px;
+    left: 20px;
+    transition: .5s;
+    opacity: 0;
+}
+
+.case-study-title.style2 h3 a {
+    display: inline-block;
+    font-size: 24px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+}
+
+.case-title.style2 span a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ff5e14;
+    font-weight: 400;
+    font-family: "Yantramanav";
+}
+
+.constre-btn.style2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.constre-btn.style2 a {
+    display: inline-block;
+    background: #171717;
+    padding: 15px 45px;
+}
+
+.constre-btn.style2 a:hover {
+    color: #fff;
+}
+
+.constre-btn.style2 a:after {
+    background: #FF5E14;
+}
+
+/* all hover */
+.case-study-single-box:hover .case-study-contents {
+    bottom: 20px;
+    opacity: 1;
+}
+
+/*======================================
+<-- Constre Case Study Details Css -->
+========================================*/
+.case-study-details {
+    padding: 120px 0 120px;
+}
+
+.csde-title h2 {
+    font-size: 34px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin: 41px 0 15px;
+}
+
+p.desc-strong {
+    font-size: 17px;
+    line-height: 26px;
+    color: #171717;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Archivo";
+    margin: 25px 0 47px;
+}
+
+.porject-title {
+    margin-bottom: 37px;
+}
+
+.porject-title.style-2 {
+    margin: 55px 0 18px;
+}
+
+.porject-title h2 {
+    font-size: 34px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+}
+
+p.style1 {
+    margin-bottom: 35px;
+}
+
+.porject-list ul li {
+    font-size: 17px;
+    color: #575f66;
+    font-weight: 400;
+    font-family: "Archivo";
+    margin-bottom: 15px;
+}
+
+.porject-list ul li i {
+    color: #FF5E14;
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+/* case sidber */
+
+.case-sidber {
+    filter: drop-shadow(0px 5px 30px rgba(117,117,117,0.1));
+    background-color: #ffffff;
+    position: relative;
+    margin-top: -81px;
+    margin-bottom: 30px;
+}
+
+.csd-title {
+    margin-bottom: 30px;
+}
+
+.csd-title h3 {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    background: #FF5E14;
+    padding: 23px 40px 23px;
+}
+
+.csd-info-sidber-box {
+    padding: 0 40px 1px;
+}
+
+.sidber-box {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #F4F5F7;
+    padding-bottom: 20px;
+}
+
+.sidber-box:last-child {
+    border: none;
+}
+.breadcumb-content ul li i {
+    margin-right: 10px;
+}
+.case-info-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #f5f6f8;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.case-info-icon span i {
+    color: #FF5E14;
+}
+
+.case-info-address {
+    display: inline-block;
+}
+
+h3.name-title {
+    font-size: 18px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    margin-top: 8px;
+}
+
+/* porject sideber box */
+
+.porject-sidebar-box {
+    background: #171717;
+    padding: 26px 40px 40px;
+}
+
+.porject-share-title h3 {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    position: relative;
+    z-index: 1;
+    margin-bottom: 36px;
+}
+
+.porject-share-title h3:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -23px;
+    height: 2px;
+    background: #dedfe01a;
+    width: 100%;
+}
+
+.porject-share-title h3:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -23px;
+    height: 2px;
+    background: #FF5E14;
+    width: 15px;
+}
+
+p.share-text {
+    color: #8e939f;
+    margin-bottom: 14px;
+}
+
+.csd-social-icon ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.csd-social-icon ul li a {
+    font-size: 16px;
+    color: #ffffff7a;
+    font-family: "Font Awesome";
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.10196078431372549);
+    display: inline-block;
+    line-height: 40px;
+}
+
+.csd-social-icon ul li a:hover {
+   background: #FF5E14;
+   color: #fff;
+}
+
+.row.upper-pb {
+    margin-bottom: 90px;
+}
+
+/* pagination */
+
+.pagination-bg {
+    background: #F5F6F8;
+    margin: 0;
+    padding: 33px 20px 27px 40px;
+}
+
+.pagination-single-item {
+    display: inline-block;
+}
+
+.pagination-single-item.right {
+    display: inline-block;
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.pagination-single-item.right:before {
+    position: absolute;
+    content: "";
+    left: -85%;
+    top: 4px;
+    opacity: 0.102;
+    width: 2px;
+    height: 50px;
+    background-color: rgb(23 23 23 / 49%);
+    z-index: -1;
+}
+
+.pagination-btn {
+    margin-right: 20px;
+    float: left;
+    position: relative;
+    top: 6px;
+}
+
+.pagination-btn.right {
+    float: right;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.pagination-btn a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    color: #FF5E14;
+    font-size: 16px;
+}
+
+.pagination-content {
+    overflow: hidden;
+}
+
+.pagination-content.right {
+    text-align: right;
+    display: inline-block;
+}
+
+h3.pagination-title {
+    font-size: 22px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin-top: 8px;
+}
+
+.pagination-content span {
+    font-size: 17px;
+    color: #ff5e14;
+    font-weight: 400;
+    font-family: "Archivo";
+}
+
+/*===================================
+<-- Constre Faq Css -->
+=====================================*/
+.faq-area {
+    padding: 107px 0 100px;
+}
+/*accordion*/
+.accordion.style1 li {
+    list-style: none;
+    padding: 2px 0px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.accordion.style1  li a {
+    position: relative;
+    width: 100%;
+    display: inline-grid;
+    cursor: pointer;
+    color: #171717;
+    padding: 25px 20px 25px 30px;
+    font-size: 20px;
+    background: #F5F6F8;
+    font-weight: 500;
+    font-family: "Yantramanav";
+}
+
+.accordion.style1  li p {
+    display: none;
+    font-size: 16px;
+    padding: 25px 0 25px 30px;
+    margin: 0;
+    border: 1px solid #F5F6F8;
+}
+
+ul.accordion.style1 li a span {
+    position: relative;
+    z-index: 1;
+}
+
+ul.accordion.style1 li a span:before {
+    position: absolute;
+    content: "";
+    right: 1px;
+    top: -3px;
+    background: #fff;
+    z-index: -1;
+    line-height: 30px;
+    float: right;
+    width: 36px;
+    height: 36px;
+}
+
+.accordion.style1 a:after {
+    width: 10px;
+    height: 2px;
+    background: #FF3C00;
+    position: absolute;
+    right: 34px;
+    content: " ";
+    top: 39px;
+    transition: all 0.2s ease-in-out;
+    z-index: 999;
+}
+
+.accordion.style1  a:before {
+    width: 2px;
+    height: 10px;
+    background: #FF3C00;
+    position: absolute;
+    right: 38px;
+    content: " ";
+    top: 35px;
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+}
+
+a.active:after {
+    background: #fff !important;
+}
+
+.accordion a.active:before {
+    display: none;
+}
+
+ul.accordion.style1 li a.active span:before {
+    background: #FF5E14;
+}
+
+
+.faq-area a.active {
+    background: #FF5E14 !important;
+    color: #fff !important;
+}
+
+.faq-area ul.accordion.style1 li a.active span:before {
+    background: #ffff;
+}
+
+
+.faq-area ul.accordion.style1 li a span:before {
+    background: #FF5E14;
+}
+
+.faq-area .accordion.style1  a:after {
+    background: #fff;
+}
+
+.faq-area .accordion.style1  a:before {
+    background: #fff;
+}
+
+.faq-area a.active:after {
+    background: #FF5E14 !important;
+}
+
+.faq-area .accordion.style1  li p {
+    border: none;
+    filter: drop-shadow(0px 5px 30px rgba(117,117,117,0.1));
+    background: #fff;
+}
+/*===================================
+<-- Constre Contact  US Css -->
+=====================================*/
+.contact-us {
+    background: url(../images/resource/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 0px;
+}
+
+/*single-call-do-box*/
+.single-call-do-box {
+    text-align: center;
+    padding: 40px 35px 25px;
+    background: #F5F6F8;
+    margin-bottom: 30px;
+}
+
+.single-call-do-icon i {
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+    font-size: 30px;
+    color: #FF5E14;
+    margin-bottom: 18px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+h3.call-do-title {
+    font-size: 22px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.call-do-text p {
+    font-size: 16px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+    text-align: center;
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+.single-call-do-box:hover .single-call-do-icon i {
+    background: #FF5E14;
+    color: #fff;
+}
+
+.row.contact-center {
+    margin: 0;
+    padding: 0 175px 0;
+    margin-top: 69px;
+    z-index: 1;
+    position: relative;
+}
+
+.contact_from_box {
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+    background: #171717;
+    padding: 67px 50px 80px;
+    border-top: 5px solid #FF5F15;
+}
+
+.form_box input ,.form_box select {
+    height: 60px;
+    background-color: #ffffff;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.form_box input::placeholder {
+    font-size: 15px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+.form_box textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px 20px;
+}
+
+.form_box textarea::placeholder {
+    font-size: 15px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+.quote_button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-us button.btn {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    background: #FF5E15;
+    border-radius: 0;
+    padding: 16px 38px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+button.btn:hover {
+    color: #171717;
+}
+
+button.btn:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+button.btn:hover:after {
+    transform: scale(1);
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+/* map section */
+
+.map-section {
+    position: relative;
+    margin-top: -80px;
+}
+
+/*=================================================
+<-- Constre Blog Sidber Widget CSS -->
+==================================================*/
+
+.blog-section {
+    background: #fff;
+    padding: 100px 0 100px;
+}
+
+.widget-items-search {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.src-input-box:focus {
+    border: 1px solid #ccc;
+}
+
+input.src-input-box::placeholder {
+    font-size: 15px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+.src-icon {
+    position: absolute;
+    right: 0;
+    top: 32px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    border: none;
+    background: #FF5E15;
+    padding: 17px 25px;
+    color: #fff;
+}
+
+/*search items*/
+.widget-items {
+    background: #F5F6F8;
+    border-radius: 3px;
+    padding: 40px 40px 15px;
+    margin-bottom: 30px;
+}
+
+.src-input-box {
+    border: 1px solid #cccccc57;
+    padding: 17px 30px;
+    width: 100%;
+}
+
+
+/*categories*/
+.widget-title {
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.widget-title h2 {
+    margin-top: 0;
+}
+
+.widget-archieve-item {
+    color: #232323;
+}
+
+.widget-archieve-item:hover {
+    color: #ff3b00;
+}
+
+.widget-items .widget-title h2 {
+    display: block;
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+}
+
+.widget-title h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(23,23,23,0.10196078431372549);
+}
+
+.widget-title h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 43px !important;
+    width: 15px;
+    height: 2px;
+    background-color: #ff5e14;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: MOVE-BG;
+}
+
+@keyframes MOVE-BG {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        left: 320px;
+        top: 0px;
+    }
+}
+
+.hr-3 {
+    border-top: 1px solid #e6e6e6;
+    padding-top: 15px;
+}
+
+.catagory-item {
+    margin: 43px 0 7px;
+}
+
+.catagory-item ul li {
+    border-bottom: 1px solid rgba(23,23,23,0.10196078431372549);
+}
+
+.catagory-item ul li:last-child {
+    border-bottom: none;
+}
+
+.catagory-item ul li a {
+    font-size: 18px;
+    color: #171717;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.catagory-item ul li:hover a {
+    color: #FF5E15;
+}
+
+
+.catagory-item ul li a i {
+    color: #FF5E15;
+    font-size: 15px;
+    margin-right: 14px;
+}
+
+/*post thumb*/
+
+.widget-recent-post {
+    margin-bottom: 23px;
+    padding-top: 24px;
+}
+
+.rpost-thumb {
+    margin-right: 20px;
+}
+
+/*post title*/
+.rpost-title h4 {
+    transition: .5s;
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+}
+
+.rpost-title span {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.rpost-title h4:hover {
+    color: #FF5E15;
+}
+
+/*tag menu*/
+
+.tag-item {
+    margin: 50px 0 17px;
+}
+
+.tag-item a {
+    padding: 8px 20px;
+    display: inline-block;
+    margin: 2px 3px 8px;
+    transition: .5s;
+    font-size: 16px;
+    line-height: 26px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    background: #fff;
+}
+
+.tag-item a:hover {
+    color: #fff;
+    background: #FF5E15;
+}
+
+/*pagination*/
+.pagination.center {
+    text-align: center !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.pagination a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #919191;
+    float: left;
+    text-decoration: none;
+    transition: background-color .3s;
+    margin: 0 4px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    text-align: center;
+    border: 1px solid rgba(33,33,33,0.1);
+}
+
+.pagination a:hover {
+    background: #FF5E15;
+    color: #fff;
+
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Constre Blog Details Css -->
+<!-- ============================================================== -->*/
+.blog-details {
+    background: #fff;
+    padding: 120px 0 120px;
+}
+.blog-content {
+    transition: .5s;
+}
+
+.blog-meta {
+    border-bottom: 1px solid rgba(23,23,23,0.10196078431372549);
+    padding: 22px 0 25px;
+}
+
+.blog-meta span {
+    padding-left: 20px;
+    font-size: 16px;
+    color: #575f66;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    position: relative;
+    z-index: 1;
+    padding-right: 25px;
+}
+
+.blog-meta span:before {
+    position: absolute;
+    z-index: -1;
+    width: 10px;
+    height: 10px;
+    background-color: #d1d1d1;
+    content: "";
+    top: 5px;
+    left: 0;
+}
+
+.blog-meta span a {
+    color: #575f66;
+    transition: .5s;
+    display: inline-block;
+}
+
+.blog-meta span a:hover {
+    color: #FF5E15;
+}
+
+.blog-content-text.text-left h2 {
+    font-size: 34px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin: 25px 0 14px;
+}
+
+p.qouik2 {
+    margin: 24px 0 35px;
+}
+
+/*blog tetails items*/
+
+.blog-details-single-items {
+    background: #F5F6F8;
+    text-align: center;
+    padding: 40px 19px 30px;
+}
+
+.blog-details-desc p {
+    font-size: 22px;
+    line-height: 36px;
+    color: #171717;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Archivo";
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+h3.blog-details-title {
+    font-size: 22px;
+    color: #ff5e14;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+h2.blog-dtls-title3 {
+    font-size: 34px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin: 56px 0 18px;
+}
+
+p.desc-style1 {
+    margin-bottom: 36px;
+}
+
+/* blog details list thumb */
+
+.blog-details-list-item {
+    margin-top: 18px;
+}
+
+h3.blog-details-list-title {
+    font-size: 24px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin-bottom: 17px;
+}
+
+ul.blog-details-list li {
+    font-size: 16px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Archivo";
+    margin-bottom: 8px;
+}
+
+ul.blog-details-list img {
+    margin-right: 10px;
+}
+
+/*blog social*/
+
+.blog-details-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(23,23,23,0.1);
+    border-bottom: 1px solid rgba(23,23,23,0.1);
+    padding: 16px 0 16px;
+    margin-top: 60px;
+    margin-bottom: 65px;
+}
+
+.blog-social-tags span strong {
+    font-size: 18px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    margin-right: 20px;
+}
+
+.single-blog-social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.share-text {
+    margin-right: 20px;
+}
+
+.share-text h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Yantramanav";
+}
+
+
+.single-blog-social-icon ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.single-blog-social-icon ul li i {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: inline-block;
+    color: #686868;
+    transition: .5s;
+}
+
+.single-blog-social-icon ul li:hover i {
+    color: #fff;
+    background: #ff5e14;
+}
+
+
+/* Comment CSS */
+
+.blog-details-contents h3 {
+    font-size: 28px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin-bottom: 32px;
+}
+
+.blog-details-comment {
+    margin-bottom: 20px;
+    position: relative;
+    background: #F5F6F8;
+    padding: 33px 40px 24px 30px;
+}
+
+.blog-details-comment-thumb {
+    float: left;
+    margin-right: 25px;
+}
+
+.blog-details-comment-content {
+    overflow: hidden;
+}
+
+.blog-details-comment-content h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin-bottom: 8px;
+}
+
+.blog-details-comment-reply span {
+    display: inline-block;
+    font-size: 16px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+    position: relative;
+    z-index: 1;
+    margin-right: 25px;
+}
+
+.blog-details-comment-reply span:before {
+    position: absolute;
+    content: "";
+    right: -16px;
+    top: 6px;
+    width: 2px;
+    height: 15px;
+    background-color: rgba(23,23,23,0.14901960784313725);
+    z-index: -1;
+}
+
+.blog-details-comment-reply a {
+    font-size: 14px;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 16px;
+    color: #ff5e14;
+    font-weight: 500;
+    font-family: "Yantramanav";
+}
+
+.blog-details-comment-reply a i {
+    margin-right: 10px;
+}
+
+.blog-details-comment.reply {
+    margin-left: 80px;
+}
+
+/* commet form */
+.comment-form {
+    margin-top: 56px;
+}
+.comment-title h3 {
+    font-size: 28px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Yantramanav";
+    margin-bottom: 27px;
+}
+
+#comment-msg-box {
+    width: 100%;
+    transition: .5s;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid rgba(23,23,23,0.1);
+    padding: 21px 25px;
+}
+
+#comment-msg-box::placeholder {
+    font-size: 15px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+input.comment-box {
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid rgba(23,23,23,0.1);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+input.comment-box::placeholder {
+    font-size: 15px;
+    color: #575f66;
+    font-weight: 300;
+    font-family: "Archivo";
+}
+
+.comment-box:focus, #comment-msg-box:focus {
+    border-color: #FF5E15;
+    outline: 0;
+    box-shadow: 0 0 6px rgb(204, 48, 0, 0.6);
+}
+
+/*form button*/
+.comment-form .submit-comment {
+    background: #FF5E15;
+    border: 1px solid #FF5E15;
+    padding: 14px 39px;
+    margin-left: 15px;
+    transition: .5s;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Yantramanav";
+    margin-top: 10px;
+}
+
+.comment-form .submit-comment:hover {
+    background: #fff;
+    color: #FF5E15;
+}
+
+
+
+
+
+/*
+<!-- ============================================================== -->
+<!-- Constre Bounce Animation Css -->
+<!-- ============================================================== -->*/
+/* bounce-animate */
+.bounce-animate {
+    animation-name: float-bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob;
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate2 {
+    animation-name: float-bob2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob2;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob2;
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob2;
+    -o-animation-duration: 3s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate3 {
+    animation-name: float-bob3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob3;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob3;
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob3;
+    -o-animation-duration: 3s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate4 {
+    animation-name: float-bob4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob4;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob4;
+    -ms-animation-duration: 5s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob4;
+    -o-animation-duration: 5s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate5 {
+    animation-name: float-bob5;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob5;
+    -moz-animation-duration: 6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob5;
+    -ms-animation-duration: 6s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob5;
+    -o-animation-duration: 6s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate-slow {
+    animation-name: float-bob5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob5;
+    -moz-animation-duration: 15s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob5;
+    -ms-animation-duration: 15s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob5;
+    -o-animation-duration: 15s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate-3 {
+    animation-name: float-bob6;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob6;
+    -moz-animation-duration: 6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob6;
+    -ms-animation-duration: 6s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob6;
+    -o-animation-duration: 6s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+@keyframes float-bob {
+    0% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes float-bob2 {
+    0% {
+        -webkit-transform: translateY(-60px);
+        transform: translateY(-60px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-60px);
+        transform: translateY(-60px);
+    }
+}
+
+@keyframes float-bob3 {
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes float-bob4 {
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes float-bob5 {
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes float-bob6 {
+    0% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes movebounce {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+
+@keyframes moveleftbounce {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+    50% {
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+
+
+/*--==============================================->
+  <!-- Constre Animation Dance -->
+ ==================================================-*/
+/**/
+.dance3 {
+    -webkit-animation: dance3 8s alternate infinite;
+    animation: dance3 8s alternate infinite;
+}
+
+@keyframes dance3 {
+    0% {
+        -webkit-transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+.dance {
+    -webkit-animation: dance 2s alternate infinite;
+    animation: dance 2s alternate infinite;
+}
+
+@keyframes dance {
+    0% {
+        -webkit-transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+.dance2 {
+    -webkit-animation: dance2 4s alternate infinite;
+    animation: dance2 4s alternate infinite;
+}
+
+@keyframes dance2 {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+    50% {
+        -webkit-transform: translate3d(25px, -25px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, -25px, 25px);
+    }
+}
+
+.watermark-animate {
+    -webkit-animation: watermark-animate 8s infinite;
+    animation: watermark-animate 8s infinite;
+    animation-direction: alternate-reverse;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@keyframes watermark-animate {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+/*=====================================
+<-- Constre Search Box Css -->
+=======================================*/
+/*nav button*/
+.search-box-btn.search-box-outer {
+    display: inline-block;
+}
+
+.nav-btn.navSidebar-button {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.nav-btn.navSidebar-button a i {
+    font-size: 15px;
+    width: 32px;
+    line-height: 35px;
+    height: 32px;
+    border-radius: 50px;
+    text-align: center;
+    background: #efefef;
+    display: inline-block;
+    color: #232323;
+    position: relative;
+    z-index: 1;
+    margin-left: 15px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.nav-btn.navSidebar-button a i:after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #FF3C00;
+    border-radius: 50%;
+    transition: .5s;
+    transform: scale(0);
+}
+
+.nav-btn.navSidebar-button a i:hover:after {
+    transform: scale(1);
+}
+
+.nav-btn.navSidebar-button a i:hover {
+    color: #fff;
+}
+
+.xs-sidebar-group .xs-overlay {
+    left: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 101;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease-in 0.8s;
+    -o-transition: all 0.4s ease-in 0.8s;
+    transition: all 0.4s ease-in 0.8s;
+}
+
+.xs-sidebar-group .widget-heading {
+    position: absolute;
+    top: 23px;
+    right: 0;
+    padding: 25px;
+}
+
+.xs-sidebar-widget {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 360px;
+    z-index: 999999;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #272727;
+    -webkit-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    -o-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.xs-sidebar-group.isActive .xs-overlay {
+    opacity: 0.7;
+    visibility: visible;
+    -webkit-transition: all 0.8s ease-out 0s;
+    -o-transition: all 0.8s ease-out 0s;
+    transition: all 0.8s ease-out 0s;
+    left: 0;
+}
+
+.xs-sidebar-group.isActive .xs-sidebar-widget {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+    -webkit-transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+    -o-transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+    transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+}
+
+.sidebar-textwidget {
+    padding: 40px 32px;
+}
+
+.close-side-widget i {
+    color: #ff3c00;
+    font-size: 28px;
+    display: block;
+}
+
+.sidebar-widget-container {
+    position: relative;
+    top: 150px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in 0.3s;
+    -o-transition: all 0.3s ease-in 0.3s;
+    transition: all 0.3s ease-in 0.3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.xs-sidebar-group.isActive .sidebar-widget-container {
+    top: 0px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 1s ease-out 1.2s;
+    -o-transition: all 1s ease-out 1.2s;
+    transition: all 1s ease-out 1.2s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.xs-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.xs-bg-black {
+    background-color: #ff3c00;
+}
+
+/*html css*/
+.nav-logo {
+    margin: 0 0 50px;
+}
+
+.content-thumb-box {
+    padding: 10px;
+}
+
+.content-thumb-box img {
+    width: 100%;
+}
+
+.content-box h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.content-box p {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 0 0;
+}
+
+a.theme-btn.btn-style-two span {
+    color: #fff;
+    font-size: 20px;
+}
+
+a.theme-btn.btn-style-two i {
+    color: #ff3c00;
+}
+
+.contact-info h2 {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+ul.list-style-one li {
+    display: block;
+    list-style: none;
+    color: #fff;
+    padding: 16px 0 0;
+    overflow: hidden;
+}
+
+ul.list-style-one li i {
+    margin-right: 10px;
+}
+
+ul.list-style-one li span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff3c00;
+    margin: 0 10px 0 0px;
+}
+
+ul.social-box {
+    margin: 30px 0 0;
+}
+
+ul.social-box li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 6px 0 0;
+}
+
+ul.social-box li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    text-align: center;
+    background: #fff;
+    color: #ff3c00;
+    transition: .5s;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+ul.social-box li a:hover {
+    background: #ff3c00;
+    color: #fff;
+}
+
+
+/*
+<!-- ============================================================== -->
+<!-- Constre Scrollup Section -->
+<!-- ============================================================== -->*/
+
+/*------back-to-top------------*/
+.prgoress_indicator {
+    position: fixed;
+    right: 50px;
+    bottom: 75px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 2px rgba(17, 85, 233, 0.2);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transform: translateY(15px) !important;
+    transition: all 200ms linear !important;
+  }
+  .prgoress_indicator.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) !important;
+  }
+  .prgoress_indicator::after {
+    position: absolute;
+    content: "\f106";
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #FF5E14;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    font-weight: 900;
+    z-index: 1;
+    transition: all 200ms linear !important;
+}
+.prgoress_indicator::before {
+    position: absolute;
+    content: "\f633";
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 900;
+    opacity: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 0;
+    font-family: bootstrap-icons !important;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+    transition: all 200ms linear !important;
+}
+  .prgoress_indicator:hover ::after {
+    color: var(--primary-color-one);
+  }
+  .prgoress_indicator:hover ::before {
+    opacity: 1;
+  }
+  .prgoress_indicator svg path {
+    fill: none;
+  }
+  .prgoress_indicator svg.progress-circle path {
+    stroke: #FF5E14;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear !important;
+}
+
+
+
+/*===========================
+<-- Constre Loader Css -->
+=============================*/
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s 1s ease;
+    z-index: 666;
+}
+
+.loader {
+    position: relative;
+    display: block;
+    z-index: 201;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    border-radius: 50%;
+    transition: all 1s 1s ease;
+    border: 3px solid transparent;
+    border-top-color: #0163A2;
+    -webkit-animation: spin 1.5s linear infinite;
+    -moz-animation: spin 1.5s linear infinite;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+.loader:before {
+    position: absolute;
+    content: '';
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-left-color: #FF5E14;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.loader:after {
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-right-color: #fff;
+    -webkit-animation: spin 2.5s linear infinite;
+    -moz-animation: spin 2.5s linear infinite;
+    -o-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+}
+
+/*/ Here comes the Magic /*/
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.loader-wrapper .loder-section {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #111;
+    z-index: 2;
+}
+
+.loader-wrapper .loder-section.left-section {
+    left: 0;
+    transition: 1s 1.4s ease;
+}
+
+.loader-wrapper .loder-section.right-section {
+    right: 0;
+    transition: 1s 1.4s ease;
+}
+
+/*/ When page loaded /*/
+.loaded .loder-section.left-section {
+    left: -100%;
+}
+
+.loaded .loder-section.right-section {
+    right: -100%;
+}
+
+.loaded .loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded .loader {
+    top: -100%;
+    opacity: 0;
+}
+
+/*curser point */
+
+.curser {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #0163A2 ;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transition: .1s;
+}
+
+.curser2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background:  #0163A2 ;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transition: .15s;
+    animation: Ripple 1.6s ease-in-out infinite;
+    -webkit-animation: Ripple 1.6s ease-in-out infinite;
+    -moz-animation: Ripple 1.6s ease-in-out infinite;
+}

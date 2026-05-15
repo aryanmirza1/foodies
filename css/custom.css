@@ -1,0 +1,43 @@
+/* Mobile-first admin tiles with glass effect */
+.admin-tiles .card {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(16, 24, 40, .06);
+  transition: transform .15s ease, box-shadow .15s ease, background .3s ease;
+}
+.admin-tiles .card:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 12px 28px rgba(16, 24, 40, .10);
+}
+.admin-tiles .card-body {
+  padding: 18px;
+}
+.tile-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.tile-metrics p {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+}
+.tile-metrics .value {
+  font-weight: 800;
+  font-size: 20px;
+}
+:root {
+  --brand-brown:#795548;
+}
+.text-brand { color: var(--brand-brown) !important; }
+.badge-soft {
+  background: rgba(121,85,72,.08);
+  color: var(--brand-brown);
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-weight: 600;
+  font-size: 12px;
+}
